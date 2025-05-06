@@ -1,0 +1,1 @@
+varjag.net/remote/lock.php?access=transfer&key=...&cmd=open&dev=lock

@@ -1,0 +1,11 @@
+http://192.168.4.1:80/cmd?KEY=RvSc0dE&LOADFROMHOST
+
+varjag.net/remote/lock.php?access=transfer&key=...&cmd=open&dev=lock
+
+http://192.168.4.1:80/cmd?KEY=RvSc0dE&update_firmware
+
+1)замена Parsing.cpp в WebServer,алгоритм парсинга строки на аргументы без значений
+2)C:\Users\dem1305\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6\tools\sdk\include\config - sdkconfig.h CONFIG_LWIP_MAX_SOCKETS[88]=32 - не влияет,по умолчанию 10
+
+C:\Users\dem1305\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.6\tools\sdk\include\esp32/esp_wifi_types.h [257]-
+#define ESP_WIFI_MAX_CONN_NUM  (32)//по умолчанию=10 - не поддается изменению,требуется перекомпиляция ядра
