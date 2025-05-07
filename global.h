@@ -81,10 +81,10 @@
   #define DEFAULT_AP_IP               {192,168,4,1}     //IP точки        
   #define DEFAULT_SSID                "VARJAG_2"        //точка доступа для подключения клиента к сети                      
   #define DEFAULT_PASS                "1234567800"      //пароль точки доступа для подключения клиента к сети "Quantum_13";  
-  #define DEFAULT_REMOTE_SERVER       "varjag.net"
+  #define DEFAULT_REMOTE_SERVER       "domain.net"
   #define DEFAULT_REMOTE_DIR          "remote"
-  #define DEFAULT_FTP_REMOTE_SERVER   "varjag.net" 
-  #define DEFAULT_FTP_DIR             "/public_html/varjag.net/remote"
+  #define DEFAULT_FTP_REMOTE_SERVER   "domain.net" 
+  #define DEFAULT_FTP_DIR             "/public_html/domain.net/remote"
   #define DEFAULT_FTP_PORT            21
   #define DEFAULT_FTP_USER            "rvscode" 
   #define DEFAULT_FTP_PASS            "rvscode1305"  
